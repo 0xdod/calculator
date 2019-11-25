@@ -55,7 +55,7 @@ class Calculator {
             default:
                 return
         }
-        this.displayValue = result;
+        this.displayValue = result.toString();
         this.operation = undefined;
         this.firstOperand = '';
 

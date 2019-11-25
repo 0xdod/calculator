@@ -20,7 +20,8 @@ body{
     justify-content: center;
     align-items:center;
     height: 100vh;
-    background: linear-gradient(to right, #02aab0, #00cdac);
+    background: url('../../../../bitmap.png') no-repeat, linear-gradient(to right, #02aab0, #00cdac);
+    background-size: cover;
 }
 .calculator{
     max-width: 404px;
@@ -56,7 +57,7 @@ body{
     background: black;
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px;
-    grid-gap:  1.5px;
+    gap:  1.5px;
     max-height: 506px;
 }
 .span-two{
@@ -100,8 +101,4 @@ button:hover{
 button:active{
     font-size: 1.5rem;
     background-color:rgba(0,0,0,.4);
-}
-
-.clicked{
-    border: 2px solid yellow;
 }
