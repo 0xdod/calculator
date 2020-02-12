@@ -1,0 +1,22 @@
+{
+  "name": "simple-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FibreActive/A-Simple-Calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FibreActive/A-Simple-Calculator/issues"
+  },
+  "homepage": "https://github.com/FibreActive/A-Simple-Calculator#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
